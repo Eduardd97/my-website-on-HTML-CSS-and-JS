@@ -1,0 +1,126 @@
+footer {
+    width: 100%;
+    background: #52565A;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0 0 0;
+}
+
+.logo-and-navigation-box {
+    display: grid;
+    width: 80%;
+    grid-template-columns: 1fr 2fr;
+    gap: 50px;
+    text-align: center;
+}
+
+.logo-and-navigation-box .section-logo-and-navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-logo-and-navigation .logo-box {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.section-logo-and-navigation .logo-box .logo {
+    font-size: 25px;
+    color: #889099;
+}
+
+.section-logo-and-navigation .logo-box span {
+    color: #797F85;
+}
+
+.section-logo-and-navigation nav {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #C4CBD2;
+}
+
+a:hover {
+    color: whitesmoke;
+}
+
+.logo-and-navigation-box .articles-and-contacts-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.articles-and-contacts-box .articles-and-contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.articles-and-contacts-box .location-and-opening-hours-and-email-box {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    color: #C4CBD2;
+
+}
+
+.location-and-opening-hours-and-email-box .location-and-opening-hours {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.articles-and-contacts-box .our-contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: #C4CBD2;
+}
+
+footer .border {
+    margin: 40px 0 15px 0;
+    display: flex;
+    border: 1px solid #EEEEEE1A;
+    width: 80%;
+    height: 0;
+    transform: rotate(180deg);
+}
+
+.copyrights-and-site-rules {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    color: #C4CBD2;
+    padding: 0 0 15px 0;
+    align-items: center;
+}
+
+.copyrights-and-site-rules .copyrights-date-and-logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.copyrights-and-site-rules .site-rules {
+    display: flex;
+    justify-content: center;
+}
+
+.copyrights-and-site-rules .author {
+    display: flex;
+    justify-content: end;
+}
+
+.copyrights-and-site-rules .payment-method {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 50px;
+}
